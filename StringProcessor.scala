@@ -1,8 +1,8 @@
 object StringProcessor {
   def processStrings(strings: List[String]): List[String] = {
     strings
-      .filter(_.length > 3)      // ‘ËÎ¸Ú ÒÚÓÍ ‰ÎËÌÓÈ ·ÓÎÂÂ 3 ÒËÏ‚ÓÎÓ‚
-      .map(_.toUpperCase)  // œÂÓ·‡ÁÓ‚‡ÌËÂ ‚ ‚ÂıÌËÈ Â„ËÒÚ
+      .filter(_.length > 3)  // –§–∏–ª—å—Ç—Ä —Å—Ç—Ä–æ–∫–∏ –¥–ª–∏–Ω–æ–π –±–æ–ª–µ–µ 3 —Å–∏–º–≤–æ–ª–æ–≤
+      .map(_.toUpperCase)    // –ü—Ä–µ–æ–±—Ä–∞–∑–æ–≤–∞–Ω–∏–µ —Å—Ç—Ä–æ–∫–∏ –≤ –≤–µ—Ä—Ö–Ω–∏–π —Ä–µ–≥–∏—Å—Ç—Ä
   }
 
   def main(args: Array[String]): Unit = {
